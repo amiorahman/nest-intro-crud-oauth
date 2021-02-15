@@ -12,6 +12,7 @@ const mongoose_1 = require("@nestjs/mongoose");
 const app_controller_1 = require("./app.controller");
 const app_service_1 = require("./app.service");
 const products_module_1 = require("./dummy_products/products.module");
+const translate_module_1 = require("./translation/translate.module");
 const authentication_module_1 = require("./authentication/authentication.module");
 let AppModule = class AppModule {
 };
@@ -19,6 +20,7 @@ AppModule = __decorate([
     common_1.Module({
         imports: [
             products_module_1.ProductsModule,
+            translate_module_1.TranslationModule,
             mongoose_1.MongooseModule.forRoot("mongodb+srv://amiorahman:QWHJsYJgmMuD2DJl@cluster0.9oua4.mongodb.net/nest-db?retryWrites=true&w=majority"), authentication_module_1.AuthenticationModule,
         ],
         controllers: [app_controller_1.AppController],
