@@ -11,7 +11,7 @@ import { AuthenticationModule } from './authentication/authentication.module';
     ProductsModule, 
     TranslationModule,
     MongooseModule.forRoot(
-      "mongodb+srv://amiorahman:QWHJsYJgmMuD2DJl@cluster0.9oua4.mongodb.net/nest-db?retryWrites=true&w=majority"
+      "mongodb+srv://${mongodbuesr}:${mongodbpass}@cluster0.9oua4.mongodb.net/nest-db?retryWrites=true&w=majority"
     ), AuthenticationModule,
   ],
   controllers: [AppController],
