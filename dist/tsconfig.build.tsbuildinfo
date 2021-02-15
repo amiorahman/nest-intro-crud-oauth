@@ -1841,6 +1841,24 @@
         "signature": "8857a2a959eb0ee870d0adb812e0d41a0e12796ec0c1d85f8416e82bcf51ca03",
         "affectsGlobalScope": false
       },
+<<<<<<< Updated upstream
+=======
+      "../src/translation/translate.service.ts": {
+        "version": "d5d328c11214fd426ae8fcfeffbc9a177cf8833f171aaabb9e0be26ab7385cc3",
+        "signature": "e5eb91b0ed3e4c1b34099f1ab1567efc272c9eb4c1fbd44a70bacb2eee6ecaf7",
+        "affectsGlobalScope": false
+      },
+      "../src/translation/translate.controller.ts": {
+        "version": "a7af51797690441bc3d4a9735bc3a84c75a0d0ced5feeb5e8fe6c64ca8c59c2f",
+        "signature": "c8d20168c64d8b0c9ad9b6150a3f782c3e51ce5eea2c5f032c68b76b603b001d",
+        "affectsGlobalScope": false
+      },
+      "../src/translation/translate.module.ts": {
+        "version": "841fd3c88daff6f2b979e5aaedc50fafa03ccf5d5b9db373df8b234dc9a65366",
+        "signature": "51735f22b0efd4b9d7f36006f3ba7ff2fa741d9f097ba300bcd40b5e92d8be16",
+        "affectsGlobalScope": false
+      },
+>>>>>>> Stashed changes
       "../node_modules/@types/express-unless/index.d.ts": {
         "version": "b1fbe17d300be84cbec570dbc95b2ac322f6c108054591b02195641f0608756f",
         "signature": "b1fbe17d300be84cbec570dbc95b2ac322f6c108054591b02195641f0608756f",
@@ -1872,7 +1890,11 @@
         "affectsGlobalScope": false
       },
       "../src/app.module.ts": {
+<<<<<<< Updated upstream
         "version": "b6268c9733d16f7da4ae081e191591fe0a769acb6d7f60bdcb36ea49560fd164",
+=======
+        "version": "b361ac446dda1055130703211f6e11962721cc11fe653d073b4f7396a2a34d4f",
+>>>>>>> Stashed changes
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
         "affectsGlobalScope": false
       },

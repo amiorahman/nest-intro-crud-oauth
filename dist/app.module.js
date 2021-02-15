@@ -19,7 +19,12 @@ AppModule = __decorate([
     common_1.Module({
         imports: [
             products_module_1.ProductsModule,
+<<<<<<< Updated upstream
             mongoose_1.MongooseModule.forRoot("mongodb+srv://amiorahman:QWHJsYJgmMuD2DJl@cluster0.9oua4.mongodb.net/nest-db?retryWrites=true&w=majority"), authentication_module_1.AuthenticationModule,
+=======
+            translate_module_1.TranslationModule,
+            mongoose_1.MongooseModule.forRoot("mongodb+srv://${mongodbuesr}:${mongodbpass}@cluster0.9oua4.mongodb.net/nest-db?retryWrites=true&w=majority"), authentication_module_1.AuthenticationModule,
+>>>>>>> Stashed changes
         ],
         controllers: [app_controller_1.AppController],
         providers: [app_service_1.AppService],
