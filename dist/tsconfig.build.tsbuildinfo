@@ -1841,21 +1841,6 @@
         "signature": "8857a2a959eb0ee870d0adb812e0d41a0e12796ec0c1d85f8416e82bcf51ca03",
         "affectsGlobalScope": false
       },
-      "../src/translation/translate.service.ts": {
-        "version": "d5d328c11214fd426ae8fcfeffbc9a177cf8833f171aaabb9e0be26ab7385cc3",
-        "signature": "e5eb91b0ed3e4c1b34099f1ab1567efc272c9eb4c1fbd44a70bacb2eee6ecaf7",
-        "affectsGlobalScope": false
-      },
-      "../src/translation/translate.controller.ts": {
-        "version": "f7dbb2bea77cec38d54e063fbdb7f94b748605e820210cafe44d0ce0a54f6e2b",
-        "signature": "c8d20168c64d8b0c9ad9b6150a3f782c3e51ce5eea2c5f032c68b76b603b001d",
-        "affectsGlobalScope": false
-      },
-      "../src/translation/translate.module.ts": {
-        "version": "841fd3c88daff6f2b979e5aaedc50fafa03ccf5d5b9db373df8b234dc9a65366",
-        "signature": "51735f22b0efd4b9d7f36006f3ba7ff2fa741d9f097ba300bcd40b5e92d8be16",
-        "affectsGlobalScope": false
-      },
       "../node_modules/@types/express-unless/index.d.ts": {
         "version": "b1fbe17d300be84cbec570dbc95b2ac322f6c108054591b02195641f0608756f",
         "signature": "b1fbe17d300be84cbec570dbc95b2ac322f6c108054591b02195641f0608756f",
@@ -1887,7 +1872,7 @@
         "affectsGlobalScope": false
       },
       "../src/app.module.ts": {
-        "version": "e438b33194036ba33f4bf776ffffa1b5c7488145bbc5022885df84cbc3c167e5",
+        "version": "b6268c9733d16f7da4ae081e191591fe0a769acb6d7f60bdcb36ea49560fd164",
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
         "affectsGlobalScope": false
       },
@@ -1961,11 +1946,6 @@
         "signature": "274bda283ef15f4205603ca9967313fc013aa77ae89f2cbeab5fbd51439e96ed",
         "affectsGlobalScope": false
       },
-      "../node_modules/@types/google-translate-api/index.d.ts": {
-        "version": "69a0e663abc9d9329a85f548b28234beab5095c7cadfbb06c91179162e1cb474",
-        "signature": "69a0e663abc9d9329a85f548b28234beab5095c7cadfbb06c91179162e1cb474",
-        "affectsGlobalScope": false
-      },
       "../node_modules/@types/graceful-fs/index.d.ts": {
         "version": "cb6cf0480ee1aa9f706db1f6f5add596a1aa10e8c4beb1817f2318384ba684dc",
         "signature": "cb6cf0480ee1aa9f706db1f6f5add596a1aa10e8c4beb1817f2318384ba684dc",
@@ -2029,11 +2009,6 @@
       "../node_modules/@types/json5/index.d.ts": {
         "version": "96d14f21b7652903852eef49379d04dbda28c16ed36468f8c9fa08f7c14c9538",
         "signature": "96d14f21b7652903852eef49379d04dbda28c16ed36468f8c9fa08f7c14c9538",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@types/long/index.d.ts": {
-        "version": "e8465811693dfe4e96ef2b3dffda539d6edfe896961b7af37b44db2c0e48532b",
-        "signature": "e8465811693dfe4e96ef2b3dffda539d6edfe896961b7af37b44db2c0e48532b",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/normalize-package-data/index.d.ts": {
@@ -3632,8 +3607,7 @@
         "../src/app.controller.ts",
         "../src/app.service.ts",
         "../src/authentication/authentication.module.ts",
-        "../src/dummy_products/products.module.ts",
-        "../src/translation/translate.module.ts"
+        "../src/dummy_products/products.module.ts"
       ],
       "../src/app.service.ts": [
         "../node_modules/@nestjs/common/index.d.ts"
@@ -3683,18 +3657,6 @@
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/core/index.d.ts",
         "../node_modules/rxjs/index.d.ts"
-      ],
-      "../src/translation/translate.controller.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../src/translation/translate.service.ts"
-      ],
-      "../src/translation/translate.module.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../src/translation/translate.controller.ts",
-        "../src/translation/translate.service.ts"
-      ],
-      "../src/translation/translate.service.ts": [
-        "../node_modules/@nestjs/common/index.d.ts"
       ]
     },
     "exportedModulesMap": {
@@ -5139,9 +5101,6 @@
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/core/index.d.ts",
         "../node_modules/rxjs/index.d.ts"
-      ],
-      "../src/translation/translate.controller.ts": [
-        "../src/translation/translate.service.ts"
       ]
     },
     "semanticDiagnosticsPerFile": []
